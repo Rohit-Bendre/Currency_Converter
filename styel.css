@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: skyblue;
+    font-family:  sans-serif;
+    font-weight: bold;
+}
+.container{
+    background-color: rgb(210, 253, 255);
+    padding:30px;
+    border-radius: 2rem;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    height: 25rem;
+}
+form{
+    margin-top: 3rem;
+}
+
+form select,input,button{
+    width:100%;
+    border:none;
+    height:2rem;
+    border-radius: 1.25rem;
+    text-align: center;
+    
+}
+input{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.drop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+form select{
+    background-color: transparent;
+}
+form input,button{
+    border: 1.5px solid rgb(0, 0, 0);
+}
+.select-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    border: 2px solid rgb(158, 192, 235);
+    border-radius: 1rem;
+    padding: 0.25rem;
+    margin-top: 1rem;
+}
+img{
+    max-width: 2.5rem;
+    border-radius: 1rem;
+}
+.msg{
+    margin: 2rem 0 2rem 0;
+}
+button{
+    height: 2.5rem;
+    background-color: rgb(232, 57, 255);
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.msg,button{
+    font-size: 1.1rem;
+}
+
+i{
+    margin-top: 5vh;
+    font-size: 1.75rem;
+}
+.rate{
+    font-size: 1.25rem;
+}
