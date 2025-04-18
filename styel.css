@@ -17,7 +17,7 @@ body{
     border-radius: 2rem;
     border-bottom: 4px solid black;
     border-right: 4px solid black;
-    height: 25rem;
+    height: 28rem;
 }
 form{
     margin-top: 3rem;
@@ -62,7 +62,7 @@ img{
     border-radius: 1rem;
 }
 .msg{
-    margin: 2rem 0 2rem 0;
+    margin: 10% 0 10% 0;
 }
 button{
     height: 2.5rem;
